@@ -1,0 +1,12 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build-script", // Replace with your build command
+    "test": "echo \"No tests specified\" || exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
